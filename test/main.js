@@ -5,3 +5,4 @@ describe('Meaningful Test', () => {
 });
 
 import './sub';
+require('../app/javascript/main.spec.ts');

@@ -8,7 +8,7 @@ module.exports = function (config) {
     exclude: [
     ],
     preprocessors: {
-      'test/main.js': ['webpack']
+      'test/main.js': ['webpack', 'sourcemap']
     },
     webpack: require('./webpack.test.config')({env: 'test'}),
     reporters: ['progress'],

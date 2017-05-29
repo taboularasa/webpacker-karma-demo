@@ -1,12 +1,5 @@
 module.exports = () => {
   return {
-    entry: {
-      main: './src/main.ts'
-    },
-    output: {
-      path: './dist',
-      filename: '[name].bundle.js'
-    },
     resolve: {
       extensions: ['.js', '.ts', '.html']
     },
